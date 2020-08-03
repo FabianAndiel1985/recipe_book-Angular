@@ -1,0 +1,19 @@
+label {
+font-family: 'Tangerine', cursive;
+	font-size: 2rem;
+}
+
+button {
+	background-color: #6d7993;
+	border:none;
+	font-family: 'Smythe', cursive;
+}
+
+input.ng-invalid.ng-touched {
+	border:2px solid red;
+}
+
+input.ng-valid.ng-untouched {
+	border:2px solid green;
+}
+

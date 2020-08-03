@@ -1,0 +1,9 @@
+th {
+	font-family: 'Tangerine', cursive;
+	font-size: 2rem;
+}
+
+td {
+	cursor: pointer;
+	font-family: 'Smythe', cursive;
+}

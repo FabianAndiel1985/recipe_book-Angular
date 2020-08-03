@@ -1,0 +1,10 @@
+.navbar-brand{
+	font-family: 'Tangerine', cursive;
+	font-size: 2rem;	
+}
+
+a.nav-link {
+	cursor: pointer;
+	font-family: 'Smythe', cursive;
+}
+

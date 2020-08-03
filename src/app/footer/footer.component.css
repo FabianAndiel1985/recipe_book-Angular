@@ -1,0 +1,9 @@
+footer{
+position:fixed;
+bottom:0;
+width:100%;
+background-color: #edf4f2;
+font-family: 'Tangerine', cursive;
+font-size: 1.2rem;
+}
+

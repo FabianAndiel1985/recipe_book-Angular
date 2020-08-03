@@ -1,0 +1,23 @@
+<div class="card mx-auto" style="width: 70%;">
+  <img src={{recipe.img}} class="card-img-top" alt="...">
+  <div class="card-body">
+    <h1 class="card-title">{{recipe.name}}</h1>
+    <p class="card-text">{{recipe.description}}</p>
+    <h3 class="mb-3"> Ingredients </h3>
+    <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col" class="font-weight-bold">name</th>
+      <th scope="col" class="font-weight-bold">amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let ingredient of recipe.ingredients">
+    	<td>{{ingredient.name}}</td>
+    	<td>{{ingredient.amount}}</td>
+    </tr>
+  </tbody>
+</table>
+    <button type="button" class="btn btn-success" (click)="onAddIngredients()">Add ingredients to shopping list</button>
+  </div>
+</div>
